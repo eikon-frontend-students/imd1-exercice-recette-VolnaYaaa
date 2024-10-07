@@ -1,0 +1,93 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+p,
+h1,
+h2 {
+  font-family: Playfair Display;
+  font-weight: 400;
+  text-align: center;
+}
+main,
+.card {
+  position: relative;
+  z-index: 1;
+}
+main {
+  width: 920px;
+  height: 1140px;
+  margin: 10px auto;
+}
+.card {
+  margin: auto;
+  width: 755px;
+  max-width: 971px;
+  background: #f7e7d5;
+  border: 11px dashed #4e1411;
+  border-radius: 100px;
+}
+.ingredients {
+  width: 570px;
+  max-height: 445px;
+  background: #64312f;
+  margin: 220px auto 92px;
+  padding-top: 200px;
+  padding-bottom: 0;
+  border-radius: 30px;
+  color: #fff;
+}
+h1 {
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #4e1411;
+  margin-bottom: 0;
+  margin-top: 64px;
+}
+img.parmigiana {
+  position: absolute;
+  z-index: 2;
+  top: 210px;
+  margin-left: 167px;
+  border-radius: 1000px;
+  border: 7px solid #64312f;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+p {
+  margin-top: 4px;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+hr {
+  max-width: 470px;
+  stroke-width: 2px;
+  stroke: #f7e7d5;
+  margin-bottom: 20px;
+}
+article {
+  columns: 2;
+  column-gap: 70px;
+  font-family: Roboto Mono;
+  font-size: 14px;
+  line-height: 140%;
+  padding-bottom: 25px;
+  padding-left: 65px;
+}
+ul {
+  margin-top: 0;
+  padding-left: 0;
+  width: 202px;
+}
+.basil {
+  position: absolute;
+  bottom: 80px;
+  z-index: 3;
+}
+.basil.one {
+  left: 0;
+}
+.basil.two {
+  right: 0;
+}
